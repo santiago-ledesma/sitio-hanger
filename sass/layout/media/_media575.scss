@@ -1,0 +1,20 @@
+@media(max-width:575px){
+    nav ul li a {
+        color: #000000;
+        text-decoration: none;
+        font-size: .75rem;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        padding: .625rem .625rem 0rem .625rem;
+        justify-content: space-between;
+        background-color: $color-principal;
+        width: 100%;
+        flex-direction: column;
+    }
+    .logo-img{
+        height: 3.125rem;
+    }
+    
+}

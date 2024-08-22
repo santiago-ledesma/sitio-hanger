@@ -1,0 +1,27 @@
+@import "./utilities/mixins";
+@import "./utilities/variables";
+
+@import "./base/body";
+@import "./base/reset";
+@import "./layout/header";
+@import "./layout/contacto";
+@import "./layout/footer";
+@import "./components/aside";
+@import "./components/container-card";
+@import "./components/card";
+@import "./components/saleH1";
+@import "./components/hym-cont";
+@import "./components/infoT";
+@import "./components/cards-prod";
+@import "./components/tit-info";
+@import "./components/img-tit";
+@import "./components/card-envio";
+@import "./components/animacion-cont";
+@import "./components/subrayado-head";
+
+@import "./layout/media/media426";
+@import "./layout/media/media500";
+@import "./layout/media/media575";
+@import "./layout/media/media700";
+@import "./layout/media/media1024";
+

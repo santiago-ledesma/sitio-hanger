@@ -1,0 +1,21 @@
+@media(max-width:500px){
+    .card div {
+        height: 75%;
+        width: 100%;
+        align-items: center;
+    }
+    .card p{
+        font-size: .9375rem;
+    }
+    .card {
+        height: 25rem;
+        width: 27.5rem;
+        border-radius: .3125rem;
+        box-shadow: 5px 5px 10px black;
+        text-align: center; 
+        margin: 1.875rem;
+    }
+    .hym-cont{
+        font-size: 1.25rem;
+    }
+}

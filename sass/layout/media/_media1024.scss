@@ -1,0 +1,21 @@
+@media (max-width:1024px) {
+    .container-prod{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    .card-prod{
+    width: 18.75rem;
+    border-radius: .3125rem;
+    box-shadow: 5px 5px 10px black;
+    text-align: center; 
+    margin: 1.875rem;
+    }
+    h3{
+    padding-top: .9375rem;
+    }
+    p {
+    padding: 1.5625rem;
+    padding-top: .9375rem;
+    }
+} }

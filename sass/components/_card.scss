@@ -1,0 +1,25 @@
+.card {
+    height: 41.25rem;
+    width: 27.5rem;
+    border-radius: .3125rem;
+    box-shadow: 5px 5px 10px black;
+    text-align: center; 
+    margin: 1.875rem;
+}
+.card div {
+    height: 70%;
+    width: 100%;
+    align-items: center;
+
+}
+.card div img{
+    width: 70%;
+    height: 100%;
+    object-fit: contain;
+}
+.card p{
+    font-size: 1.875rem;
+}
+.card h3{
+    font-size: 25px;
+}

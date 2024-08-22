@@ -1,0 +1,10 @@
+@media(max-width:426px){
+    .container-foot{
+        display: flex;
+        justify-content: space-between;
+        padding-right: .9375rem;
+    }
+    .logo{
+        font-size: 2em;
+    }
+}

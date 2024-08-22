@@ -1,0 +1,25 @@
+header{
+    display: flex;
+    align-items: center;
+    padding: .625rem 1.25rem 0rem 1.25rem;
+    justify-content: space-between;
+    background-color: $color-principal;
+    width: 100%;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+.logo-img{
+    height: 4.375rem;
+}

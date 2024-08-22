@@ -1,0 +1,326 @@
+body {
+  font-family: "JetBrains Mono", monospace;
+  background-color: #91abce59; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  display: flex;
+  align-items: center;
+  padding: .625rem 1.25rem 0rem 1.25rem;
+  justify-content: space-between;
+  background-color: #5E88BF;
+  width: 100%; }
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0; }
+
+nav ul li {
+  margin: 0 15px; }
+
+nav ul li a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.25rem; }
+
+.logo-img {
+  height: 4.375rem; }
+
+.container {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1.5em; }
+
+ul {
+  list-style: none;
+  padding: 0; }
+
+.logo {
+  text-align: center;
+  font-size: 3em; }
+
+.contact-wrapper {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3); }
+
+.contact-wrapper > * {
+  padding: 1em; }
+
+.contact-form {
+  background: #5E88BF; }
+
+.contact-form form {
+  display: grid;
+  grid-template-columns: 1fr 1fr; }
+
+.contact-form form label {
+  display: block; }
+
+.contact-form form p {
+  margin: 0;
+  padding: 1em; }
+
+.contact-form form .block {
+  grid-column: 1 / 3; }
+
+.contact-form form button,
+.contact-form form input,
+.contact-form form textarea {
+  width: 100%;
+  padding: .7em;
+  border: none;
+  background: none;
+  outline: 0;
+  color: #000000;
+  border-bottom: 1px solid #ffffff; }
+
+.contact-form form button {
+  background: #0051ff96;
+  border: 0;
+  text-transform: uppercase;
+  padding: 1em; }
+
+.contact-info {
+  background: #3f81d8; }
+
+.contact-info h4,
+.contact-info ul,
+.contact-info p {
+  text-align: center;
+  margin: 0 0 1rem 0; }
+
+footer {
+  background-color: #5E88BF; }
+
+.container-foot {
+  display: flex;
+  justify-content: space-around; }
+
+.foot-list {
+  list-style: none; }
+
+.foot-list li a {
+  text-decoration: none;
+  color: #000000; }
+
+.instagram {
+  padding-left: 2rem;
+  background-image: url(../assets/Instagram.png);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat; }
+
+.facebook {
+  padding-left: 2rem;
+  background-image: url(../assets/facebook-new.png);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat; }
+
+.whatsapp {
+  padding-left: 2rem;
+  background-image: url(../assets/whatsapp.png);
+  background-position: 0 0;
+  background-size: 1.6rem 1.6rem;
+  background-repeat: no-repeat; }
+
+aside {
+  width: 95vw;
+  max-width: 1000px;
+  min-width: 320px;
+  margin: auto; }
+  aside img {
+    width: 100%; }
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center; }
+
+.card {
+  height: 41.25rem;
+  width: 27.5rem;
+  border-radius: .3125rem;
+  box-shadow: 5px 5px 10px black;
+  text-align: center;
+  margin: 1.875rem; }
+
+.card div {
+  height: 70%;
+  width: 100%;
+  align-items: center; }
+
+.card div img {
+  width: 70%;
+  height: 100%;
+  object-fit: contain; }
+
+.card p {
+  font-size: 1.875rem; }
+
+.card h3 {
+  font-size: 25px; }
+
+.sale-1 {
+  display: flex;
+  justify-content: center; }
+
+.hym-cont {
+  display: flex;
+  justify-content: center; }
+
+.info {
+  display: flex;
+  justify-content: center;
+  padding-right: .625rem; }
+
+.envio {
+  background-color: #5E88BF;
+  padding-top: .9375rem;
+  padding-bottom: .9375rem; }
+
+.container-prod {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center; }
+  .container-prod .card-prod {
+    width: 37.5rem;
+    border-radius: .3125rem;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    margin: 1.875rem; }
+  .container-prod h3 {
+    padding-top: .9375rem;
+    padding-bottom: .9375rem;
+    background-color: #5E88BF; }
+  .container-prod p {
+    padding: 1.5625rem;
+    padding-top: .9375rem; }
+
+.tit-info {
+  display: flex;
+  justify-content: center;
+  padding: 1.875rem;
+  padding-bottom: 2.5rem; }
+
+.help-logo {
+  object-fit: contain;
+  height: 2.5rem;
+  width: 2.5rem; }
+
+.cont-envio {
+  display: flex;
+  justify-content: center; }
+  .cont-envio .card-envio {
+    border-radius: .3125rem;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    margin: 1.25rem;
+    width: 62.5rem; }
+    .cont-envio .card-envio p {
+      padding: .625rem; }
+
+.contact-form form button:hover,
+.contact-form form button:focus {
+  background: #0051ff;
+  color: #fff;
+  transition: background-color 1s ease-out;
+  outline: 0; }
+
+.link {
+  position: relative; }
+
+.link:after {
+  content: "";
+  width: 0;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transition: all .5s;
+  will-change: width; }
+
+.link:hover:after {
+  width: 100%;
+  right: 0; }
+
+@media (max-width: 426px) {
+  .container-foot {
+    display: flex;
+    justify-content: space-between;
+    padding-right: .9375rem; }
+  .logo {
+    font-size: 2em; } }
+
+@media (max-width: 500px) {
+  .card div {
+    height: 75%;
+    width: 100%;
+    align-items: center; }
+  .card p {
+    font-size: .9375rem; }
+  .card {
+    height: 25rem;
+    width: 27.5rem;
+    border-radius: .3125rem;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    margin: 1.875rem; }
+  .hym-cont {
+    font-size: 1.25rem; } }
+
+@media (max-width: 575px) {
+  nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: .75rem; }
+  header {
+    display: flex;
+    align-items: center;
+    padding: .625rem .625rem 0rem .625rem;
+    justify-content: space-between;
+    background-color: #5E88BF;
+    width: 100%;
+    flex-direction: column; }
+  .logo-img {
+    height: 3.125rem; } }
+
+@media (min-width: 700px) {
+  .contact-wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr; }
+  .contact-wrapper > * {
+    padding: 2em; }
+  .contact-info h4,
+  .contact-info ul,
+  .contact-info p {
+    text-align: left; }
+  .contact-wrapper {
+    margin: 1.875rem; } }
+
+@media (max-width: 1024px) {
+  .container-prod {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center; }
+    .container-prod .card-prod {
+      width: 18.75rem;
+      border-radius: .3125rem;
+      box-shadow: 5px 5px 10px black;
+      text-align: center;
+      margin: 1.875rem; }
+    .container-prod h3 {
+      padding-top: .9375rem; }
+    .container-prod p {
+      padding: 1.5625rem;
+      padding-top: .9375rem; } }
