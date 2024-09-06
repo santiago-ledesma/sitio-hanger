@@ -130,6 +130,17 @@ footer {
   background-size: 1.6rem 1.6rem;
   background-repeat: no-repeat; }
 
+aside img {
+  border-radius: .3125rem .3125rem;
+  margin-bottom: .9375rem; }
+
+aside p {
+  font-size: 20px; }
+
+.carousel-item img {
+  height: 43.75rem;
+  object-fit: cover; }
+
 aside {
   width: 95vw;
   max-width: 1000px;
@@ -145,28 +156,39 @@ aside {
   justify-content: center; }
 
 .card {
-  height: 41.25rem;
-  width: 27.5rem;
-  border-radius: .3125rem;
-  box-shadow: 5px 5px 10px black;
+  height: 650px;
+  width: 400px;
+  border-radius: 10px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
   text-align: center;
-  margin: 1.875rem; }
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #5E88BF, #ffffff);
+  padding: 20px; }
 
 .card div {
-  height: 70%;
-  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
   align-items: center; }
 
 .card div img {
-  width: 70%;
+  width: 80%;
   height: 100%;
-  object-fit: contain; }
-
-.card p {
-  font-size: 1.875rem; }
+  object-fit: contain;
+  border-radius: 10px; }
 
 .card h3 {
-  font-size: 25px; }
+  font-size: 1.5rem;
+  padding-top: 15px;
+  color: #000000; }
+
+.card p {
+  font-size: 1.6rem;
+  padding-top: 10px;
+  color: #000000;
+  margin-top: auto; }
 
 .sale-1 {
   display: flex;
@@ -194,7 +216,7 @@ aside {
   .container-prod .card-prod {
     width: 37.5rem;
     border-radius: .3125rem;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     margin: 1.875rem; }
   .container-prod h3 {
@@ -203,7 +225,8 @@ aside {
     background-color: #5E88BF; }
   .container-prod p {
     padding: 1.5625rem;
-    padding-top: .9375rem; }
+    padding-top: .9375rem;
+    background: linear-gradient(to bottom, #5E88BF, #ffffff); }
 
 .tit-info {
   display: flex;
@@ -221,12 +244,13 @@ aside {
   justify-content: center; }
   .cont-envio .card-envio {
     border-radius: .3125rem;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     margin: 1.25rem;
     width: 62.5rem; }
     .cont-envio .card-envio p {
-      padding: .625rem; }
+      padding: .625rem;
+      background: linear-gradient(to bottom, #5E88BF, #ffffff); }
 
 .contact-form form button:hover,
 .contact-form form button:focus {
@@ -253,13 +277,27 @@ aside {
   width: 100%;
   right: 0; }
 
+.titulo-index {
+  display: flex;
+  justify-content: center; }
+
 @media (max-width: 426px) {
   .container-foot {
     display: flex;
     justify-content: space-between;
     padding-right: .9375rem; }
   .logo {
-    font-size: 2em; } }
+    font-size: 2em; }
+  .card div img {
+    width: 70%;
+    height: 90%;
+    object-fit: contain;
+    border-radius: 10px; }
+  .card p {
+    font-size: 1.6rem;
+    padding-top: 2px;
+    color: #333;
+    margin-top: auto; } }
 
 @media (max-width: 500px) {
   .card div {
@@ -292,6 +330,8 @@ aside {
     width: 100%;
     flex-direction: column; }
   .logo-img {
+    height: 3.125rem; }
+  .carousel-item img {
     height: 3.125rem; } }
 
 @media (min-width: 700px) {
@@ -324,3 +364,7 @@ aside {
     .container-prod p {
       padding: 1.5625rem;
       padding-top: .9375rem; } }
+
+@media (max-width: 900px) {
+  .carousel-item img {
+    height: 25rem; } }

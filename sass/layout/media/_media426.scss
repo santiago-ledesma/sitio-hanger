@@ -7,4 +7,17 @@
     .logo{
         font-size: 2em;
     }
-}
+    .card div img {
+        width: 70%;
+        height: 90%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
+    .card p {
+        font-size: 1.6rem;
+        padding-top: 2px;
+        color: #333;
+        margin-top: auto;
+    }
+    }
+    

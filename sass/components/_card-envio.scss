@@ -3,13 +3,13 @@
     justify-content: center;
     .card-envio{
     border-radius: .3125rem;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     margin: 1.25rem;
     width: 62.5rem;
     p{
-        padding: .625rem
+        padding: .625rem;
+        background: linear-gradient(to bottom, $color-principal, #ffffff);
     }
-    
-    }
+}
 }
